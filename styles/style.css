@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+*{
+    font-family: 'Bruno Ace SC', cursive;
+}
+body{
+    background: radial-gradient(rgba(255, 0, 0, 0.541),black,rgba(250, 0, 0, 0.527),black);
+    
+}
+
+.caja{
+    background-image: url(https://fondosmil.com/fondo/31136.jpg);
+    animation: cambiar 370s ease infinite;
+    width: 1800px;
+    height: 900px;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 100vh;
+    border: 3px solid rgba(255, 0, 0, 0.664);
+    box-shadow: #ff0000 10px 15px 100px ;
+}
+
+@keyframes cambiar{
+    0%{background-position: 0% 0%;}
+    10%{background-position: 10% 90%;}
+    20%{background-position: 20% 80%;}
+    30%{background-position: 30% 70%;}
+    40%{background-position: 40% 60%;}
+    50%{background-position: 50% 50%;}
+    60%{background-position: 60% 40%;}
+    70%{background-position: 70% 30%;}
+    80%{background-position: 80% 20%;}
+    90%{background-position: 90% 10%;}
+    100%{background-position: 100% 0%;}
+}
+
+.grupo{     
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.tabla{
+    margin-right: 40%;
+    margin-left: 40%; 
+    border-radius: 5vh;
+    padding: 20px;
+    background-image: url(https://e0.pxfuel.com/wallpapers/353/115/desktop-wallpaper-tablero-suchi-japanese-black-and-white.jpg);
+    border: 6px solid rgb(255, 255, 255);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    box-shadow: #ffffff 10px 15px 100px ;
+    opacity: 85%;
+}
+
+.cuadricula{
+    font-size: 20px;
+    border-radius: 10px;
+    border: 5px solid rgb(0, 0, 0);
+
+
+}
+
+.button1{
+    font-size: 17px;
+    border-radius: 10px;
+    background-image: url(https://i.pinimg.com/originals/d2/c2/58/d2c258321507ba683c80747d8888e322.gif);
+    box-shadow: #ffffff 1px 1px 10px ;
+    transition: 2s;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.ki{
+    text-shadow: #ff0000 2px 5px 1px ;
+}
+
+a{
+    color: white;
+}
+.button1:hover{
+    color: white;
+    text-shadow: #ff0000 2px 3px 1px ;
+    background-image: url(https://fondosmil.com/fondo/31136.jpg);
+    box-shadow: #ff0000 2px 3px 1px ;
+    transform: scale(1.1);
+    z-index: 2;
+}
